@@ -9,8 +9,10 @@ $(document).ready(function(){
   
   listenForClicksOnCells()
   //
+  var MARK = "x"
+  
   function markCell() {
-    
+  
   }
   //
          $("#square").fadeOut(2000);
