@@ -8,6 +8,8 @@ $(document).ready(function(){
   listenForClicksOnCells()
   //
   var MARK = "x"
+  //
+  function 
   
   function markCell() {
     this.innerText = MARK
