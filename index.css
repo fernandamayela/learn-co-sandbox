@@ -64,6 +64,6 @@ body {
 @keyframes background-shimmer {
   0% { background-color: #FF582F }
   33.3% { background-color: #C74727 }
-  66.6% { background-color: #424 }
+  66.6% { background-color: #A83A1F }
   100% { background-color: #605 }
 }
