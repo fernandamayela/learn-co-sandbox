@@ -26,14 +26,16 @@ $(document).ready(function(){
       //
     this.innerText = MARK
     //
+    if (playerWon(MARK)) {
+    }
+    //
     if (MARK=="x") {
       MARK = "o";
     } 
     else if (MARK=="o") {
       MARK = "x";
     }
-    //
-    if (playerWon(MARK))
+    }
    }
   }
   //
