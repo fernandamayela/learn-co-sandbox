@@ -14,7 +14,7 @@ body {
   max-height: 700px;
   display: flex;
   flex-direction: column;
-  background-color: white;
+  background-color: ##0F4C76;
   justify-content: space-between;
 }
 
