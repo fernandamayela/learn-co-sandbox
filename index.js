@@ -27,6 +27,7 @@ $(document).ready(function(){
     this.innerText = MARK
     //
     if (playerWon(MARK)) {
+    console.log(MARK + " won the game!")
     }
     //
     if (MARK=="x") {
