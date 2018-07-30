@@ -14,10 +14,10 @@ $(document).ready(function(){
     // MARK = "o"
     
     if (MARK=="x") {
-      MARK = "o
+      MARK = "o";
     }
     else (MARK == "o") {
-      MARK = "x"
+      MARK = "x";
     }
    }
   //
