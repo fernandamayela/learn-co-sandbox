@@ -10,12 +10,10 @@ $(document).ready(function(){
   var MARK = "x"
   
   function markCell() {
-    this.innerText = "x"
-    this.innerText = "o"
+    this.innerText = MARK
+    MARK = "O"
   }
-  //
-         $("#square").fadeOut(2000);
-    // $("#close-square").click(function(){
-    //     $("#square").fadeOut(200);
-    // });
+  
+  
+  
 })
