@@ -34,6 +34,22 @@ $(document).ready(function(){
     }
    }
   }
+  // takes in a DOM id and checks whether its text is equal to the second argument (mark)
+function elementContains(id, mark) {
+  return $(id).text() === mark
+}
+
+// to be run after each turn. checks whether a given mark ('X'/'O') populates all three spots in any given win combination
+function playerWon(mark) {
+  for (var idx = 0; idx < winArr.length; idx++) { // for every win combination
+    var winCombo = winArr[idx]
+    var won = winCombo.every(id => elementContains(id, mark)) // check if elementContains returns true for every id
+    if (won) return true
+  }
+  return false // if we got here, it means no winning combination was found and we can safely return false
+}
+
+
   //
          $("#square").fadeOut(2000);
     // $("#close-square").click(function(){
