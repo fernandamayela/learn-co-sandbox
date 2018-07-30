@@ -2,10 +2,7 @@
 $(document).ready(function(){
   //
   function listenForClicksOnCells() {
-    $(".cell").click(function() {
-      console.log(this)
-      
-    })
+    $(".cell").click(markCell)
   }  
   
   listenForClicksOnCells()
