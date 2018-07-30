@@ -32,6 +32,8 @@ $(document).ready(function(){
     else if (MARK=="o") {
       MARK = "x";
     }
+    //
+    if (playerWon(MARK))
    }
   }
   //
