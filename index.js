@@ -6,6 +6,8 @@ $(document).ready(function(){
       console.log(this)
     })
   // }  
+  
+  listenForClicksOnCells()
   //
          $("#square").fadeOut(2000);
     // $("#close-square").click(function(){
