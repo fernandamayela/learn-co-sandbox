@@ -29,6 +29,8 @@ $(document).ready(function(){
     //
     if (playerWon(MARK)) {
     console.log(MARK +" won the game")
+    } else if (numberTiles == 9) {
+      console.log("Tie")
     }
     //
     if (MARK=="x") {
