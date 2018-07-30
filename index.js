@@ -13,6 +13,9 @@ $(document).ready(function(){
     this.innerText = MARK
     MARK = "o"
     
+    if (MARK="o") {
+      
+    }
   }
   //
          $("#square").fadeOut(2000);
