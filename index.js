@@ -1,7 +1,7 @@
 //
 $(document).ready(function(){
   //
-  var winArr = {
+  var winArr = [
     ["#0-0", "#1-0", "#2-0"], // top row
     ["#0-1", "#1-1", "#2-1"] // middle row
     ["#0-2", "#1-2", "#2-2"] // bottom row
@@ -10,7 +10,7 @@ $(document).ready(function(){
     ["#2-0", "#2-1", "#2-2"] // right column
     ["#0-0", "#1-1", "#2-2"] // black slash
     ["#0-2", "#1-1", "2-0"] // forward slash
-  }
+  ]
   //
   function listenForClicksOnCells() {
     $(".cell").click(markCell)
