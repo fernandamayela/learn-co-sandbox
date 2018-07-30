@@ -11,9 +11,11 @@ $(document).ready(function(){
   
   function markCell() {
     this.innerText = MARK
-    MARK = "O"
+    MARK = "o"
   }
-  
-  
-  
+  //
+         $("#square").fadeOut(2000);
+    // $("#close-square").click(function(){
+    //     $("#square").fadeOut(200);
+    // });
 })
