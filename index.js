@@ -38,7 +38,6 @@ $(document).ready(function(){
     }
     }
    }
-  }
   //
   // takes in a DOM id and checks whether its text is equal to the second argument (mark)
 function elementContains(id, mark) {
