@@ -15,7 +15,7 @@ $(document).ready(function(){
     if (MARK=="x") {
       MARK = "o";
     } 
-    else if (MARK == "o") {
+    else if (MARK=="o") {
       MARK = "x";
     }
    }
