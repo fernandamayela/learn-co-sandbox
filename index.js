@@ -25,7 +25,7 @@ $(document).ready(function(){
     if (this.innerText === "") {
       //
     this.innerText = MARK
-    numberTiles = numberTiles + 1
+    numberTiles + numberTiles + 1
     //
     if (playerWon(MARK)) {
     console.log(MARK +" won the game")
