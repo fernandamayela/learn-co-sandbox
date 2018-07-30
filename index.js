@@ -7,7 +7,7 @@ $(document).ready(function(){
   
   listenForClicksOnCells()
   //
-  var MARK = "x"
+  var MARK = "x" && "o"
   
   function markCell() {
     this.innerText = "x"
