@@ -12,7 +12,6 @@ $(document).ready(function(){
   function markCell() {
     this.innerText = MARK
     MARK = "o"
-    MARK = "x"
   }
   //
          $("#square").fadeOut(2000);
