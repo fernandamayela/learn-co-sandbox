@@ -9,7 +9,6 @@ $(document).ready(function(){
   //
   var MARK = "x"
   //
-  function 
   
   function markCell() {
     this.innerText = MARK
