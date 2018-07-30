@@ -60,7 +60,7 @@ function playerWon(mark) {
   function resetGame() {
     MARK = "x"
     numberTiles = 0
-    $('.cell').text = ""
+    $('.cell').text = ("")
   }
   //
          $("#square").fadeOut(2000);
