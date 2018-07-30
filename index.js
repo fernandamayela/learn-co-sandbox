@@ -1,6 +1,10 @@
 //
 $(document).ready(function(){
   //
+  var winArr = {
+    ["#0-0", "#1-0", "#2-0"], //
+  }
+  //
   function listenForClicksOnCells() {
     $(".cell").click(markCell)
   }  
