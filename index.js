@@ -12,7 +12,7 @@ $(document).ready(function(){
   var MARK = "x"
   
   function markCell() {
-  
+    
   }
   //
          $("#square").fadeOut(2000);
