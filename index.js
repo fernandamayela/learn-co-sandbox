@@ -13,10 +13,10 @@ $(document).ready(function(){
     this.innerText = MARK
     MARK = "o"
     
-    if (MARK="o") {
-      
+    if (MARK="x") {
+      MARK = "o
     }
-  }
+      }
   //
          $("#square").fadeOut(2000);
     // $("#close-square").click(function(){
