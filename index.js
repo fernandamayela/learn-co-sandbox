@@ -2,9 +2,9 @@
 $(document).ready(function(){
   //
   function listenForClicksOnCells() {
-  $(".cell").click(function() {
-    console.log(this)
-  })
+    $(".cell").click(function() {
+      console.log(this)
+    })
   }  
   //
          $("#square").fadeOut(2000);
