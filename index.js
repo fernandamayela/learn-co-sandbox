@@ -10,8 +10,8 @@ $(document).ready(function(){
   var MARK = "x"
   
   function markCell() {
-    this.innerText = MARK
-    MARK = "o"
+    // this.innerText = MARK
+    // MARK = "o"
     
     if (MARK=="x") {
       MARK = "o
