@@ -57,6 +57,11 @@ function playerWon(mark) {
   return false // if we got here, it means no winning combination was found and we can safely return false
 }
   //
+  function resetGame() {
+    MARK = "x"
+    numberTiles = 0
+  }
+  //
          $("#square").fadeOut(2000);
     // $("#close-square").click(function(){
     //     $("#square").fadeOut(200);
