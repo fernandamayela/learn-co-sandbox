@@ -12,7 +12,6 @@ $(document).ready(function(){
   function markCell() {
     // this.innerText = MARK
     // MARK = "o"
-    
     if (MARK=="x") {
       MARK = "o";
     }
