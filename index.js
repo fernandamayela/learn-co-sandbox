@@ -10,7 +10,7 @@ $(document).ready(function(){
   var MARK = "x"
   
   function markCell() {
-    this.innerText("x")
+    this.innerText = "x"
   }
   //
          $("#square").fadeOut(2000);
