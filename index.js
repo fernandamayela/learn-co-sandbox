@@ -11,6 +11,7 @@ $(document).ready(function(){
   //
   
   function markCell() {
+    if (this.innerText == "") {
     this.innerText = MARK
     // MARK = "o"
     if (MARK=="x") {
@@ -20,6 +21,7 @@ $(document).ready(function(){
       MARK = "x";
     }
    }
+  }
   //
          $("#square").fadeOut(2000);
     // $("#close-square").click(function(){
