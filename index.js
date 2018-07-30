@@ -34,6 +34,7 @@ $(document).ready(function(){
     }
    }
   }
+  //
   // takes in a DOM id and checks whether its text is equal to the second argument (mark)
 function elementContains(id, mark) {
   return $(id).text() === mark
@@ -48,8 +49,6 @@ function playerWon(mark) {
   }
   return false // if we got here, it means no winning combination was found and we can safely return false
 }
-
-
   //
          $("#square").fadeOut(2000);
     // $("#close-square").click(function(){
